@@ -30,7 +30,7 @@ int main() {
     
     case'/':
     if (num2 == 0){
-      cout<< "Maths Error"<<endl;
+      cout<< "Division any number by zero is not allowed"<<endl;
     }
       
     else {
