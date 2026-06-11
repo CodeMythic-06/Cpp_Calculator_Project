@@ -20,7 +20,7 @@ This is a simple calculator built in C++. It performs basic arithmetic operation
 
 - **Variables**: I learned how to store decimals using the double data type.
 
-- **Control Flow**: I mastered the switch-case statement to run different code based on the operator chosen.
+- **Control Flow**: I mastered the if, if else, else and switch-case statements to run different code based on the operator chosen and certain conditions.
 
 - **Error Handling**: I learned to protect my code from crashing by stopping division by zero.
 
