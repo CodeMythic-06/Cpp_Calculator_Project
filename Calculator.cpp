@@ -1,22 +1,25 @@
-
 #include <iostream>
+
 using namespace std;
+
 int main() {
+
+  // CALCULATOR PROJECT
 
   double num1, num2, result;
   char op;
   
-  cout << "Enter first number " << endl;
+  cout << "Enter first number: ";
   cin >> num1;
-  cout << "Enter operator" << endl;
+  cout << "Enter operator: ";
   cin >> op;
-  cout <<"Enter second number" << endl;
+  cout <<"Enter second number: ";
   cin >> num2;
   
   switch(op) {
     case'+':
     result = num1 + num2;
-    cout << num1 <<op << num2 <<" = " << result << endl;
+    cout << num1 << op << num2 <<" = " << result << endl;
     break;
     
     case'-':
@@ -26,7 +29,7 @@ int main() {
     
     case'*':
     result = num1 * num2;
-    cout << num1 <<op << num2 <<" = " <<result << endl;
+    cout << num1 << op << num2 <<" = " <<result << endl;
     break;
     
     case'/':
